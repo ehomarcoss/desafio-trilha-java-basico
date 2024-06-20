@@ -10,7 +10,6 @@ public class ContaTerminal {
 
         //Exibir a mensagem conta criada;
 
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Por favor, digite o número da Agência: ");
