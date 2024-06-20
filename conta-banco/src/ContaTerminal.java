@@ -10,6 +10,7 @@ public class ContaTerminal {
 
         //Exibir a mensagem conta criada;
 
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Por favor, digite o número da Agência: ");
@@ -24,6 +25,14 @@ public class ContaTerminal {
 
         System.out.print("Digite o saldo da conta: ");
         double saldo = scanner.nextDouble();
+
+        // Exibindo a mensagem com os dados inseridos
+
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco.");
+        System.out.println("Sua agência é " + agencia + ", conta " + numero + " e seu saldo é R$" + saldo + ".");
+        System.out.println("Seu saldo já está disponível para saque.");
+
+        scanner.close();
 
     }
 }
